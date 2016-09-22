@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 40px 0 0 0;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #5c5457;
+    color: white;
+}
+
+.status-bar {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 30px;
+    width: 50%;
+}
+
+.status-box {
+    display: inline;
+    width: 25%;
+    text-align: center;
+    background-color: #e8e8e8;
+}
+
+.status-box a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Start of Bottom Section */
+.bottom-section {
+    width: 100%;
+}
+
+
+/* Start of each streamer in the list */
+.streamer {
+    margin: 3px 0 0 0;
+    padding: 10px;
+    list-style-type: none;
+    background-color: #4a5e82;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile-pic {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    margin-left: 20px;
+}
+
+.profile-pic img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: 0 20px;
+    color: #b8cca6;
+}
+
+.status {
+    width: 15%;
+    color: #8ba7c2;
+    font-style: italic;
+}
+
+.footer {
+    width: 100%;
+    height: 10px;
+    margin-top: 3px;
+    background: #5c5457;
+}
